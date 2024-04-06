@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hangman"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="100"
+    android:background="@color/white"
+    tools:context="ca.csf.tp1.views.MainActivity">
+
+
+    <TableLayout
+        android:id="@+id/lettersTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonA"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/buttonB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/buttonC"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/buttonD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="D" />
+
+            <Button
+                android:id="@+id/buttonE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="E" />
+
+            <Button
+                android:id="@+id/buttonF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="F" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonG"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="G" />
+
+            <Button
+                android:id="@+id/buttonH"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="H" />
+
+            <Button
+                android:id="@+id/buttonI"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="I" />
+
+            <Button
+                android:id="@+id/buttonJ"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="J" />
+
+            <Button
+                android:id="@+id/buttonK"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="K" />
+
+            <Button
+                android:id="@+id/buttonL"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="L" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="M" />
+
+            <Button
+                android:id="@+id/buttonN"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="N" />
+
+            <Button
+                android:id="@+id/buttonO"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="O" />
+
+            <Button
+                android:id="@+id/buttonP"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="P" />
+
+            <Button
+                android:id="@+id/buttonQ"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="Q"
+                app:layout_constraintLeft_toLeftOf="@id/buttonO"
+                app:layout_constraintRight_toLeftOf="@id/buttonR" />
+
+            <Button
+                android:id="@+id/buttonR"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="R" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="S" />
+
+            <Button
+                android:id="@+id/buttonT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="T" />
+
+            <Button
+                android:id="@+id/buttonU"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="U" />
+
+            <Button
+                android:id="@+id/buttonV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="V" />
+
+            <Button
+                android:id="@+id/buttonW"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="W" />
+
+            <Button
+                android:id="@+id/buttonX"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="X" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Y" />
+
+            <Button
+                android:id="@+id/buttonZ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="clip_horizontal"
+                android:text="Z" />
+
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/leftmargin"
+        android:layout_width="148dp"
+        android:layout_height="193dp"
+        android:layout_marginBottom="52dp"
+        android:contentDescription="@string/leftmargin"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/lettersTable"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whitesquare"
+        tools:ignore="ImageContrastCheck"
+        />
+
+    <ImageView
+        android:id="@+id/rightmargin"
+        android:layout_width="170dp"
+        android:layout_height="191dp"
+        android:layout_marginBottom="52dp"
+        android:contentDescription="@string/rightmargin"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/lettersTable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whitesquare"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/hangmanStatus"
+        android:layout_width="323dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="30dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/status_of_hangman_game"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:translationX="442dp"
+        app:layout_constraintBottom_toTopOf="@+id/lettersTable"
+        app:layout_constraintEnd_toStartOf="@+id/rightmargin"
+        app:layout_constraintStart_toEndOf="@+id/leftmargin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011"
+        app:srcCompat="@drawable/hangman"/>
+
+    <TextView
+        android:id="@+id/Mot"
+        android:layout_width="123dp"
+        android:layout_height="31dp"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/lettersTable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <Button
+        android:id="@+id/replay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:onClick="startNewGame"
+        android:text="@string/rejouer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lettersTable" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

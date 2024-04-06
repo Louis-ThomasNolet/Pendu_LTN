@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="status_of_hangman_game">Status_of_hangman_game</string>
+    <string name="leftmargin">LeftMargin</string>
+    <string name="rightmargin">RightMargin</string>
+    <string name="rejouer">REJOUER</string>
+</resources>
